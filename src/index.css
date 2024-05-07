@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap");
+
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +13,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* styles/tailwind.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'matter';
+  src: url('./../public/Matter-Regular.otf');
+  src: url('./../public/Matter-Regular.otf') format('otf');
+ 
+}
+@font-face {
+  font-family: 'Cal Sans';
+  src: url('./../public/CalSans-SemiBold.otf');
+  src: url('./../public/CalSans-SemiBold.otf') format('otf');
+ 
+}
+/* Hide scrollbar */
+.overflow-scroll::-webkit-scrollbar {
+  display: none;
 }
