@@ -90,8 +90,8 @@ function Eventt() {
             <ul className="w-full h-[50%]  flex flex-col justify-between">
                 {links.map((el, l) => (
                     <li style={{
-                        background: `${param === el.href ? "#E5E7EB" : "transparent" }`
-                    }} className="w-full h-[15%] cursor-pointer  rounded-[6px] pl-2 flex items-center gap-2">
+                        background: `${param === el.href ? "#E5E7EB" : "" }`
+                    }} className="w-full hover:bg-[#E5E7EB] h-[15%] cursor-pointer  rounded-[6px] pl-2 flex items-center gap-2">
                     <img src={el.image} alt="" className="w-[16px] h-[16px] object-cover"  />
                     <p className="text-[14px] text-[#101010] font-inter font-medium">{el.name}</p>
                 </li>

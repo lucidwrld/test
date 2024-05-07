@@ -60,6 +60,24 @@ function Afroshipper() {
             icon: afro4,
             dropdown: true,
             link: "/afrohome",
+            miniLinks: [
+                {
+                    name: "Overview",
+                    link: "/overview"
+                },
+                {
+                    name: "Notifications",
+                    link: "/notifications"
+                },
+                {
+                    name: "Analytics",
+                    link: "/analytics"
+                },
+                {
+                    name: "Report",
+                    link: "/report"
+                }
+            ]
         },
         {
             id: "6",
@@ -300,14 +318,14 @@ function Afroshipper() {
                 </div>
 
                 <div className="w-full pr-8 pl-8 h-full flex flex-col">
-                    <div className="h-[28px] flex-shrink-0 w-full mt-9  flex items-center gap-5">
+                    <div className="h-[28px] flex-shrink-0 w-full mt-9  flex items-center gap-3">
                         <img src={afro17} alt="" className="w-[20px] h-[20px] object-cover"/>
                         <img src={afro18} alt="" className="w-[18px] h-[18px] object-cover"/>
-                        <h2 className="text-[14px] text-[#475467] font-medium">User Management</h2>
+                        <h2 className="text-[14px] pl-2 pr-2 rounded-[6px] cursor-pointer text-[#475467] font-medium hover:bg-[#F9FAFB]">User Management</h2>
                         <img src={afro18} alt="" className="w-[18px] h-[18px] object-cover"/>
-                        <h2 className="text-[14px] text-[#475467] font-medium">Users</h2>
+                        <h2 className="text-[14px] pl-2 pr-2 rounded-[6px] cursor-pointer text-[#475467] font-medium hover:bg-[#F9FAFB]">Users</h2>
                         <img src={afro18} alt="" className="w-[18px] h-[18px] object-cover"/>
-                        <h2 className="h-[28px] pl-2 pr-2 bg-[#F9FAFB] flex items-center rounded-[6px] text-[14px] text-[#344054] font-semibold">Abdullah Nasir</h2>
+                        <h2 className="h-[28px] pl-2 pr-2 bg-[#F9FAFB] cursor-pointer flex items-center rounded-[6px] text-[14px] text-[#344054] font-semibold">Abdullah Nasir</h2>
                     </div>
                     <div className="w-full overflow-scroll h-[491px] flex flex-col ">
                     <div className="h-[140px] flex-shrink-0 mt-9 w-full flex flex-col justify-between">
